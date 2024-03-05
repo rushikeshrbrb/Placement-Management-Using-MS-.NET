@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model WebApplicationIdentity.DTO.ApplyForJobDTO
+
+@{
+    ViewData["Title"] = "Apply for Job";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Apply" method="post">
+   
+    <div class="form-group">
+        <label asp-for="JobId"></label>
+        <input asp-for="JobId" class="form-control" />
+        <span asp-validation-for="JobId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StudentId"></label>
+        <input asp-for="StudentId" class="form-control" />
+        <span asp-validation-for="StudentId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CompanyId"></label>
+        <input asp-for="CompanyId" class="form-control" />
+        <span asp-validation-for="CompanyId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MobileNo"></label>
+        <input asp-for="MobileNo" class="form-control" />
+        <span asp-validation-for="MobileNo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Experience"></label>
+        <input asp-for="Experience" class="form-control" />
+        <span asp-validation-for="Experience" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GraduationYear"></label>
+        <input asp-for="GraduationYear" class="form-control" />
+        <span asp-validation-for="GraduationYear" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TextareaValue">Skills</label>
+        <textarea asp-for="TextareaValue" class="form-control"></textarea>
+        <span asp-validation-for="TextareaValue" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

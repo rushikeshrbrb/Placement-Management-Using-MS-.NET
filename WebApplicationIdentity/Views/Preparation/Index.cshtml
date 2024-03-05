@@ -1,0 +1,251 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Page</title>
+</head>
+<body>
+
+    <Center><h2>Randomly Generated Technical Questions</h2></Center>
+    <Container>
+
+
+        @if (!string.IsNullOrEmpty(Model) && Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(Model).Count > 0)
+        {
+            // Parse JSON response and display questions
+            var questions = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(Model);
+            for (int i = 0; i < questions.Count; i++)
+            {
+                <div id="question-@i" style="display: @if (i == 0) {
+                    @Html.Raw("block")
+                } else {
+                    @Html.Raw("none")
+                };">
+                    <div class="card text-center">
+                        <div class="card-header bg-info">
+                            <b>#Questions</b>
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                @questions[i].question
+                            </h5>
+
+                            <form id="form-@i">
+                                @for (int j = 0; j < questions[i].answers.Count; j++)
+                                {
+                                    <div>
+                                        <input type="radio" id="option-@i-@j" name="answer-@i" value="@j">
+                                        <label for="option-@i-@j">@questions[i].answers[j].answer</label>
+                                    </div>
+                                }
+                            </form>
+
+                            <div id="result-@i"></div>
+
+                        </div>
+
+                        <div class="card-footer text-body-secondary bg-light">
+                            #API Intergration #keep Practicing
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No questions available.</p>
+        }
+    </Container>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <button class="btn btn-warning" id="previousButton" onclick="showPreviousQuestion()" style="display: none;">Previous Question</button>
+        <button class="btn btn-primary" id="nextButton" onclick="showNextQuestion()">Next Question</button>
+    </div>
+
+    <script>
+        var currentQuestionIndex = 0;
+        var questionsCount = @((Model ?? "").Length > 0 ? Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(Model).Count : 0);
+
+        function showNextQuestion() {
+            if (currentQuestionIndex < questionsCount - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function showPreviousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function showQuestion(index) {
+            var questions = document.querySelectorAll('[id^="question-"]');
+            questions.forEach(function (question) {
+                question.style.display = "none";
+            });
+            questions[index].style.display = "block";
+
+            if (index === 0) {
+                document.getElementById("previousButton").style.display = "none";
+            } else {
+                document.getElementById("previousButton").style.display = "inline-block";
+            }
+
+            if (index === questionsCount - 1) {
+                document.getElementById("nextButton").style.display = "none";
+            } else {
+                document.getElementById("nextButton").style.display = "inline-block";
+            }
+        }
+
+        
+
+        // Attach event listeners to radio buttons
+        var forms = document.querySelectorAll('form');
+        forms.forEach(function (form, index) {
+            form.addEventListener('change', function () {
+                checkAnswer(index);
+            });
+        });
+
+        // Check initial answers
+        for (var i = 0; i < questionsCount; i++) {
+            checkAnswer(i);
+        }
+    </script>
+
+    @* <Container>
+        @if (!string.IsNullOrEmpty(Model) && Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(Model).Count > 0)
+        {
+            // Parse JSON response and display questions
+            var questions = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(Model);
+            for (int i = 0; i < questions.Count; i++)
+            {
+                <div id="question-@i" style="display: @if (i == 0) {
+                    @Html.Raw("block")
+                } else {
+                    @Html.Raw("none")
+                };">
+                    <div class="card text-center">
+                        <div class="card-header bg-info">
+                            <b>#Questions</b>
+                        </div>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                @questions[i].question
+                            </h5>
+
+                            <form id="form-@i">
+                                @for (int j = 0; j < questions[i].answers.Count; j++)
+                                {
+                                    <div>
+                                        <input type="radio" id="option-@i-@j" name="answer-@i" value="@j">
+                                        <label for="option-@i-@j">@questions[i].answers[j].answer</label>
+                                    </div>
+                                }
+                            </form>
+
+                            <div id="result-@i"></div>
+
+                        </div>
+
+                        <div class="card-footer text-body-secondary bg-light">
+                            #API Intergration #keep Practicing
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No questions available.</p>
+        }
+    </Container>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <button class="btn btn-warning" id="previousButton" onclick="showPreviousQuestion()" style="display: none;">Previous Question</button>
+        <button class="btn btn-primary" id="nextButton" onclick="showNextQuestion()">Next Question</button>
+    </div>
+
+    <script>
+        var currentQuestionIndex = 0;
+        var questionsCount = @((Model ?? "").Length > 0 ? Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(Model).Count : 0);
+
+        function showNextQuestion() {
+            if (currentQuestionIndex < questionsCount - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function showPreviousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function showQuestion(index) {
+            var questions = document.querySelectorAll('[id^="question-"]');
+            questions.forEach(function (question) {
+                question.style.display = "none";
+            });
+            questions[index].style.display = "block";
+
+            if (index === 0) {
+                document.getElementById("previousButton").style.display = "none";
+            } else {
+                document.getElementById("previousButton").style.display = "inline-block";
+            }
+
+            if (index === questionsCount - 1) {
+                document.getElementById("nextButton").style.display = "none";
+            } else {
+                document.getElementById("nextButton").style.display = "inline-block";
+            }
+        }
+
+       
+    </script> *@
+    <br/>
+    <hr/>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="communication-tab" data-toggle="tab" href="#communication" role="tab" aria-controls="communication" aria-selected="true">Communication Module</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="aptitude-tab" data-toggle="tab" href="#aptitude" role="tab" aria-controls="aptitude" aria-selected="false">Aptitude Module</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="technical-tab" data-toggle="tab" href="#technical" role="tab" aria-controls="technical" aria-selected="false">Technical Module</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="interview-tab" data-toggle="tab" href="#interview" role="tab" aria-controls="interview" aria-selected="false">Interview Preparation</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="communication" role="tabpanel" aria-labelledby="communication-tab">
+            @Html.Partial("_CommunicationModule")
+        </div>
+        <div class="tab-pane fade" id="aptitude" role="tabpanel" aria-labelledby="aptitude-tab">
+            @Html.Partial("_AptitudeModule")
+        </div>
+        <div class="tab-pane fade" id="technical" role="tabpanel" aria-labelledby="technical-tab">
+            @Html.Partial("_TechnicalModule")
+        </div>
+        <div class="tab-pane fade" id="interview" role="tabpanel" aria-labelledby="interview-tab">
+            @Html.Partial("_Preparation")
+        </div>
+    </div>
+   
+</body>
+</html>

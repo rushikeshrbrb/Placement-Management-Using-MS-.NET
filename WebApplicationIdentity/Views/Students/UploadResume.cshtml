@@ -1,0 +1,23 @@
+﻿@model WebApplicationIdentity.Models.Student
+
+@{
+    ViewData["Title"] = "UploadResume";
+}
+
+
+<h1>Upload Resume</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UploadResume" asp-controller="Students" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="resume" class="control-label">Select Resume:</label>
+                <input type="file" name="resume" class="form-control-file" />
+                <span class="text-danger">@Html.ValidationMessage("resume")</span>
+            </div>
+            <input type="hidden" name="id" value="@Model" /> <!-- Use Model directly -->
+            <button type="submit" class="btn btn-primary">Upload Resume</button>
+        </form>
+    </div>
+</div>
+

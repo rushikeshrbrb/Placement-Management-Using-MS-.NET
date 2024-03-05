@@ -1,0 +1,692 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\students\\loadpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\students\\loadpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\shared\\_maintenancepartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\shared\\_maintenancepartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\jobapplications\\getapplicationsbyuserid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\jobapplications\\getapplicationsbyuserid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\controllers\\preparationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\controllers\\preparationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\dto\\rolestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\dto\\rolestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\models\\educationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\models\\educationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\shared\\_studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\shared\\_studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\models\\jobapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\controllers\\addjobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\controllers\\addjobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\shared\\_companydashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\shared\\_companydashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\preparation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\preparation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\preparation\\_technicalmodule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\preparation\\_technicalmodule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\preparation\\_communicationmodule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\preparation\\_communicationmodule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\placements\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\placements\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\jobapplications\\getapplicationsbycompanyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\jobapplications\\getapplicationsbycompanyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\educationmodels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\educationmodels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\views\\admin\\getusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\views\\admin\\getusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|d:\\ms-net workspace cdac\\carrercanvaspms\\webapplicationidentity\\webapplicationidentity\\webapplicationidentity\\controllers\\jobapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF389D94-5350-421A-BD63-A0ECE285BBCC}|WebApplicationIdentity\\WebApplicationIdentity.csproj|solutionrelative:webapplicationidentity\\controllers\\jobapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 193,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:22:08.159Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAADwvwoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:21:47.699Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JobApplication.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Models\\JobApplication.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Models\\JobApplication.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Models\\JobApplication.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Models\\JobApplication.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:22:10.732Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Controllers\\CompaniesController.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Controllers\\CompaniesController.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:21:52.773Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:22:01.298Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Models\\Student.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Models\\Student.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:22:13.742Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_MaintenancePartialView.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_MaintenancePartialView.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Shared\\_MaintenancePartialView.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_MaintenancePartialView.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Shared\\_MaintenancePartialView.cshtml",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:11:22.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetApplicationsByUserId.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\JobApplications\\GetApplicationsByUserId.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\JobApplications\\GetApplicationsByUserId.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\JobApplications\\GetApplicationsByUserId.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\JobApplications\\GetApplicationsByUserId.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:11:19.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowEMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:10:59.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:10:57.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:10:51.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoadPartialView.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Students\\LoadPartialView.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Students\\LoadPartialView.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Students\\LoadPartialView.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Students\\LoadPartialView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:10:05.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAABMBAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:10:40.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:10:37.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PreparationController.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\PreparationController.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Controllers\\PreparationController.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\PreparationController.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Controllers\\PreparationController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA0AAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:25:31.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Data\\MyDbContext.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Data\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:10:24.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoleStore.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\DTO\\RoleStore.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\DTO\\RoleStore.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\DTO\\RoleStore.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\DTO\\RoleStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:10:21.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EducationModel.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Models\\EducationModel.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Models\\EducationModel.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Models\\EducationModel.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Models\\EducationModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:10:16.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FileServices.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Services\\FileServices.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Services\\FileServices.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Services\\FileServices.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Services\\FileServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:22:21.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:10:09.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:09:57.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:09:50.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:09:47.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_StudentDashBoard.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_StudentDashBoard.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Shared\\_StudentDashBoard.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_StudentDashBoard.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Shared\\_StudentDashBoard.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T14:09:38.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\appsettings.json",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\appsettings.json",
+              "RelativeToolTip": "WebApplicationIdentity\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-23T13:25:45.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Program.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Program.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:25:49.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAALMBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:24:28.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddJobsController.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\AddJobsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Controllers\\AddJobsController.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\AddJobsController.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Controllers\\AddJobsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:51:17.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_CompanyDashBoard.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_CompanyDashBoard.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Shared\\_CompanyDashBoard.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Shared\\_CompanyDashBoard.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Shared\\_CompanyDashBoard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:26:41.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Preparation\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Preparation\\Index.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Preparation\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Preparation\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:25:13.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_TechnicalModule.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Preparation\\_TechnicalModule.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Preparation\\_TechnicalModule.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Preparation\\_TechnicalModule.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Preparation\\_TechnicalModule.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:25:05.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_CommunicationModule.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Preparation\\_CommunicationModule.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Preparation\\_CommunicationModule.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Preparation\\_CommunicationModule.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Preparation\\_CommunicationModule.cshtml",
+              "ViewState": "AQIAAKoBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:24:53.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Placements\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Placements\\Details.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Placements\\Details.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Placements\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:24:47.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetApplicationsByCompanyId.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\JobApplications\\GetApplicationsByCompanyId.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\JobApplications\\GetApplicationsByCompanyId.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\JobApplications\\GetApplicationsByCompanyId.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\JobApplications\\GetApplicationsByCompanyId.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:24:39.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\EducationModels\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\EducationModels\\Delete.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\EducationModels\\Delete.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\EducationModels\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:24:22.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Companies\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Companies\\Create.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Companies\\Create.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Companies\\Create.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABAAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:23:55.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetUsers.cshtml",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Admin\\GetUsers.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Views\\Admin\\GetUsers.cshtml",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Views\\Admin\\GetUsers.cshtml",
+              "RelativeToolTip": "WebApplicationIdentity\\Views\\Admin\\GetUsers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T13:23:43.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "JobApplicationsController.cs",
+              "DocumentMoniker": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\JobApplicationsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationIdentity\\Controllers\\JobApplicationsController.cs",
+              "ToolTip": "D:\\MS-NET Workspace CDAC\\CarrerCanvasPMS\\WebApplicationIdentity\\WebApplicationIdentity\\WebApplicationIdentity\\Controllers\\JobApplicationsController.cs",
+              "RelativeToolTip": "WebApplicationIdentity\\Controllers\\JobApplicationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T13:21:57.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

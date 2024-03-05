@@ -1,0 +1,146 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Company</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplicationIdentity.styles.css" asp-append-version="true" />
+
+    <link rel="icon" type="image/png" href="~/lib/logo.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/dashboard.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 fixed-top">
+            <div class="container-fluid">
+
+                <a><img height="60" width="70" src="~/lib/logo.jpg" class="img-profile" /></a>
+                <a asp-controller="Home" asp-action="Index" class="logo">
+                    <h4>Career<span>Canvas</span>(PMS)</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contacts" asp-action="Create"><b>Contact Us</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy"><b>Privacy</b></a>
+                        </li>
+                    </ul>
+                </div>
+                <partial name="_LoginPartial" />
+            </div>
+        </nav>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block sidebar ">
+                <div class="sidebar">
+                    <ul class="nav flex-column pt-3">
+                        <li class="nav-item p-md-3 mt-5">
+                            <a class="nav-link active" href="#">
+                                <b>Company</b>
+                            </a>
+                        </li>
+
+                        <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Companies" asp-action="ByCompany" asp-route-id="@UserManager.GetUserId(User)">
+                                <b> Profile</b>
+                            </a>
+
+                           @*  working but after entry db null issue occure 
+                            sovle this issue bu manually put company id in addjob table *@
+                        <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AddJobs" asp-action="Create">
+                                <b>Post New opening</b>
+                            </a>
+                        </li>
+                       
+                        @* //working but show all jobs given to admin  *@
+                        @* <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="AddJobs" asp-action="Index">
+                                <b>Manage All Job</b>
+                            </a>
+                        </li> *@
+
+                        @* //working and show only that company jobs *@
+                         <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Companies" asp-action="GetJobsByCompanyId" asp-route-userId="@UserManager.GetUserId(User)">
+                                <b>Manage All Job</b>
+                            </a>
+                        </li>  
+
+                   @* 
+                        <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Companies" asp-action="LoadPartialView"><b>Manage Recieved Application</b></a>
+                        </li> *@ 
+
+                        @* work but no data till  *@
+                          <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Companies" asp-action="ViewJobApplications"><b>Manage Recieved Application</b></a>
+                        </li> 
+
+                        @* working but Db Null issue shows *@
+                        @* <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="JobApplications" asp-action="GetApplicationsByCompanyId"><b>Manage Recieved Application</b></a>
+                        </li> *@
+
+                        @* logic write pending for this *@
+                        <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Companies" asp-action="LoadPartialView"><b>Interview  Selected Student</b></a>
+                        </li>
+
+                        @* working *@
+                        <li class="nav-item p-md-3">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contacts" asp-action="Create"><b>FeedBack Form</b></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="container bg-gradient-light">
+                    <main role="main" class="pb-3">
+                        @RenderBody()
+                    </main>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="footer border-bottoms footer fixed">
+        <div class="container text-lg-center">
+            &copy; 2024 - CarrerCanvas (PMS) - CDAC, Mumbai | All Rights Are Reserved. <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

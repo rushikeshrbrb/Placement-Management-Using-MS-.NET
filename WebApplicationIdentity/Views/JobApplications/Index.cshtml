@@ -1,0 +1,87 @@
+﻿@model IEnumerable<WebApplicationIdentity.Models.JobApplication>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Job Applications</h1>
+
+@* <p>
+    <a asp-action="Create">Create New</a>
+</p> *@
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr class="table-primary">
+            <th>
+                @Html.DisplayNameFor(model => model.Student)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MobileNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Experience)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GraduationYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.skills)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AddJobs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Student.StudentId)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MobileNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Experience)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GraduationYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.skills)
+            </td>
+           
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.Company.Company_Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AddJobs.Job_Id)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+            <td>
+               @*  <a asp-action="Edit" asp-route-id="@item.ApplicationId">Edit</a> | *@
+                <a asp-action="Details" class="btn btn-warning" asp-route-id="@item.ApplicationId">Details</a> 
+                @* <a asp-action="Delete" asp-route-id="@item.ApplicationId">Delete</a> *@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

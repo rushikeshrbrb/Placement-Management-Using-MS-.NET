@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "ByStudent";
+}
+
+<h1>ByStudent</h1>
+
+@model WebApplicationIdentity.Models.EducationModel
+
+<h1>Education Details</h1>
+
+<div>
+    <h4>Student ID: @Model.StudentEducation_Id</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Class 10 Passing Year:</dt>
+        <dd class="col-sm-10">@Model.Class10_Passing_Year</dd>
+
+        <dt class="col-sm-2">Class 10 Percentage:</dt>
+        <dd class="col-sm-10">@Model.Class10_Percentage</dd>
+
+        <dt class="col-sm-2">Class 12 Passing Year:</dt>
+        <dd class="col-sm-10">@Model.Class12_Passing_Year</dd>
+
+        <dt class="col-sm-2">Class 12 Percentage:</dt>
+        <dd class="col-sm-10">@Model.Class12_Percentage</dd>
+
+        <dt class="col-sm-2">Graduation Completion Year:</dt>
+        <dd class="col-sm-10">@Model.Graduation_Completion_Year</dd>
+
+        <dt class="col-sm-2">Graduation Percentage:</dt>
+        <dd class="col-sm-10">@Model.Graduation_Percentage</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.StudentEducation_Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

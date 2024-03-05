@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model List<WebApplicationIdentity.Models.JobApplication>
+
+@{
+    ViewData["Title"] = "Job Applications by Company";
+}
+
+<h1>Job Applications by Company</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Application ID</th>
+                <th>Email</th>
+                <th>Mobile Number</th>
+                <th>Experience</th>
+                <th>Graduation Year</th>
+                <th>Skills</th>
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var application in Model)
+            {
+                <tr>
+                    <td>@application.ApplicationId</td>
+                    <td>@application.Email</td>
+                    <td>@application.MobileNo</td>
+                    <td>@application.Experience</td>
+                    <td>@application.GraduationYear</td>
+                    <td>@application.skills</td>
+                    <!-- Add more columns as needed -->
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No job applications found for this company.</p>
+}

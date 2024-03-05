@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<WebApplicationIdentity.Models.AddJobs>
+
+<h1>Jobs</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Designation</th>
+            <th>Specialization</th>
+            <th>Experience</th>
+            <th>Description</th>
+            <th>10th Criteria</th>
+            <th>12th Criteria</th>
+            <th>Graduation Criteria</th>
+            <th>Status</th>
+            <th>CTC</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var job in Model)
+        {
+            <tr>
+                <td>@job.Designation</td>
+                <td>@job.Specialization</td>
+                <td>@job.Experience</td>
+                <td>@job.Description</td>
+                <td>@job._10_cri</td>
+                <td>@job._12_cri</td>
+                <td>@job.Grad_cri</td>
+                <td>@job.Status</td>
+                <td>@job.CTC</td>
+            </tr>
+        }
+    </tbody>
+</table>

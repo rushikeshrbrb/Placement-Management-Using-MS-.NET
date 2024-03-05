@@ -1,0 +1,72 @@
+﻿@model List<Tuple<string, List<string>, string>>
+
+@{
+    ViewBag.Title = "Aptitude Module";
+}
+
+
+<center><h2>Aptitude Module Practice Quiz</h2></center>
+
+<div id="scoreResult" style="display: none;">
+    <h3>Your Score</h3>
+    <p id="score" class="btn btn-outline-danger"></p>
+</div>
+
+<form id="quizForm">
+    <table class="table table-hover table-striped table-borderless">
+        <thead class="table-danger">
+            <tr>
+                <th>Question</th>
+                <th>Option A</th>
+                <th>Option B</th>
+                <th>Option C</th>
+                <th>Option D</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@(i + 1). @Model[i].Item1</td>
+                    @foreach (var option in Model[i].Item2)
+                    {
+                        <td>
+                            <input type="radio" name="question@(i + 1)" value="@option" />
+                            <label>@option</label>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    <center>
+        <button class="btn btn-primary" type="button" onclick="calculateScore()">Submit</button>
+
+    </center>
+    </form>
+
+
+<script>
+    var questions = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model));
+
+    function calculateScore() {
+        var form = document.getElementById("quizForm");
+        var score = 0;
+
+        for (var i = 0; i < questions.length; i++) {
+            var selectedOption = document.querySelector('input[name="question' + (i + 1) + '"]:checked');
+            if (selectedOption !== null) {
+                var questionNumber = i + 1;
+                var correctAnswer = questions[i].Item3;
+
+                if (selectedOption.value === correctAnswer) {
+                    score++;
+                }
+            }
+        }
+
+        var scoreDisplay = document.getElementById("score");
+        scoreDisplay.textContent = "You scored " + score + " out of " + questions.length;
+        document.getElementById("scoreResult").style.display = "block";
+    }
+</script>

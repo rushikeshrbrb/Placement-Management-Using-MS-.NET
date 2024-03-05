@@ -1,0 +1,29 @@
+﻿@{
+    // Layout = "_Layout";
+
+    if (User.IsInRole("Admin"))
+    {
+        Layout = "/Views/Shared/_AdminDashBoard.cshtml";
+    }
+    else if (User.IsInRole("Student"))
+    {
+        Layout = "/Views/Shared/_StudentDashBoard.cshtml";
+
+    }
+    else if (User.IsInRole("Company"))
+    {
+        Layout = "/Views/Shared/_CompanyDashBoard.cshtml";
+    }
+    else if (User.IsInRole("Placement Officer"))
+    {
+        Layout = "/Views/Shared/_PlacementOfficerDashboard.cshtml";
+    }
+    else if (User.IsInRole("HOD"))
+    {
+        Layout = "/Views/Shared/_HodDashboard.cshtml";
+    }
+    else
+    {
+        Layout = "/Views/Shared/_Layout.cshtml";
+    }
+}

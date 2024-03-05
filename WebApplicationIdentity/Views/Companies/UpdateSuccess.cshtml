@@ -1,0 +1,8 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+
+    <h1>Successfully Updated</h1>
+
+<a class="nav-link text-dark" asp-area="" asp-controller="Companies" asp-action="ByCompany" asp-route-id="@UserManager.GetUserId(User)">
+    
+</a>
